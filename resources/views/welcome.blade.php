@@ -2,7 +2,7 @@
 <x-layout.main>
     <x-banner-pizza-pets/>
     <div class="relative isolate overflow-hidden">
-        <canvas id="matrix" class="absolute -z-10 h-full w-full" aria-hidden="true"></canvas>
+        <x-matrix-background/>
         <div class="mx-auto max-w-7xl px-6 pb-24 pt-10 sm:pb-40 lg:flex lg:px-8 lg:pt-40">
             <div class="mx-auto max-w-2xl flex-shrink-0 lg:mx-0 lg:max-w-xl lg:pt-8">
                 <x-icon-bitcoin class="h-11 fill-red-600" />
@@ -45,6 +45,10 @@
 
     <x-layout.section>
         <x-marketplaces/>
+    </x-layout.section>
+
+    <x-layout.section>
+        <x-donation/>
     </x-layout.section>
 
     <x-layout.section>

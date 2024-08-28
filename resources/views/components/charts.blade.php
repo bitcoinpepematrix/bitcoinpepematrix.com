@@ -12,3 +12,7 @@
         <x-icon-tradingview class="h-4 lg:h-6" />
     </a>
 </div>
+
+@pushOnce('scripts')
+    @vite('resources/js/chart.js')
+@endPushOnce

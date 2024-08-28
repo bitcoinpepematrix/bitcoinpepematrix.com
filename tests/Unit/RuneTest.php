@@ -146,6 +146,16 @@ class RuneTest extends TestCase
     }
 
     #[Test]
+    public function rune_has_the_url_to_the_dot_swap_website(): void
+    {
+        $rune = new Rune($this->validParams([
+            'ticker' => 'TEST•TICKER',
+        ]));
+
+        $this->assertEquals('https://www.dotswap.app/swap#R_BTC_TEST%E2%80%A2TICKER', $rune->dotswap_url);
+    }
+
+    #[Test]
     public function rune_has_the_url_to_the_magic_eden_website(): void
     {
         $rune = new Rune($this->validParams([

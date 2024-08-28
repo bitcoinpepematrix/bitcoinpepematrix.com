@@ -30,6 +30,8 @@ class Rune
 
     public string $etching_tx = '';
 
+    public string $dotswap_url = '';
+
     public string $magic_eden_url = '';
 
     public string $okx_url = '';
@@ -49,6 +51,10 @@ class Rune
         $this->id = $this->etching_block.':'.$this->etching_transaction;
 
         $this->tickerWithoutSpacers = Str::of($this->ticker)->remove('•');
+
+        $this->dotswap_url = Str::of('https://www.dotswap.app/swap#R_BTC_')->append(
+            urlencode($this->ticker)
+        );
 
         $this->magic_eden_url = Str::of('https://magiceden.io/runes/')->append(
             urlencode($this->ticker)

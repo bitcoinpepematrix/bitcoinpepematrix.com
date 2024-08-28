@@ -1,3 +1,5 @@
+import 'copy-button';
+
 import axios from 'axios';
 window.axios = axios;
 

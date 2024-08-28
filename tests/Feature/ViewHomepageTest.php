@@ -19,7 +19,7 @@ class ViewHomepageTest extends TestCase
     {
         $this->get('/')
             ->assertSee(
-                '<title>BITCOIN•PEPE•MATRIX',
+                '<title>BITCOIN•PEPE•MATRIX</title>',
                 escape: false
             );
     }
