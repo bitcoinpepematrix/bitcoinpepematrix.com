@@ -1,6 +1,6 @@
 <?php
 
-use App\Jobs\CollectRunePrice;
+use App\Jobs\RetrieveRunePrice;
 use App\Rune;
 use Illuminate\Support\Facades\Schedule;
 
@@ -11,6 +11,6 @@ Schedule::command('rune:cache-holder-count')->hourly();
 Schedule::command('rune:cache-transaction-count')->daily();
 Schedule::command('rune:cache-volume')->daily();
 
-Schedule::job(new CollectRunePrice(
+Schedule::job(new RetrieveRunePrice(
     new Rune(config('rune'))
 ))->everyTenMinutes();
