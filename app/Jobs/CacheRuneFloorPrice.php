@@ -9,7 +9,7 @@ use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Http;
 
-class CacheFloorPrice implements ShouldQueue
+class CacheRuneFloorPrice implements ShouldQueue
 {
     use Dispatchable, Queueable;
 
