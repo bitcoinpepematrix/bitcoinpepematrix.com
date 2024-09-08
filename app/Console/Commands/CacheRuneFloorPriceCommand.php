@@ -2,12 +2,12 @@
 
 namespace App\Console\Commands;
 
-use App\Jobs\CacheFloorPrice;
+use App\Jobs\CacheRuneFloorPrice;
 use App\Rune;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Cache;
 
-class CacheFloorPriceCommand extends Command
+class CacheRuneFloorPriceCommand extends Command
 {
     protected $signature = 'rune:cache-floor-price';
 
@@ -17,7 +17,7 @@ class CacheFloorPriceCommand extends Command
     {
         $rune = new Rune(config('rune'));
 
-        CacheFloorPrice::dispatchSync($rune);
+        CacheRuneFloorPrice::dispatchSync($rune);
 
         $this->info('The floor price for '.$rune->ticker.' is '.Cache::get('floor_price', default: 'unknown'));
     }

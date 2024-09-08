@@ -2,14 +2,14 @@
 
 namespace Tests\Unit\Jobs;
 
-use App\Jobs\CacheFloorPrice;
+use App\Jobs\CacheRuneFloorPrice;
 use App\Rune;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Http;
 use PHPUnit\Framework\Attributes\Test;
 use Tests\TestCase;
 
-class CacheFloorPriceTest extends TestCase
+class CacheRuneFloorPriceTest extends TestCase
 {
     #[Test]
     public function it_caches_the_floor_price(): void
@@ -22,7 +22,7 @@ class CacheFloorPriceTest extends TestCase
 
         $rune = new Rune(['ticker' => 'BITCOIN•PEPE•MATRIX']);
 
-        CacheFloorPrice::dispatch($rune);
+        CacheRuneFloorPrice::dispatch($rune);
 
         $this->assertTrue(Cache::has('floor_price'));
         $this->assertEquals(0.12, Cache::get('floor_price'));
