@@ -1,4 +1,3 @@
-
 <x-layout.main>
     <x-banner-pizza-pets/>
     <div class="relative isolate overflow-hidden">
