@@ -2,6 +2,7 @@
 
 namespace App\Jobs;
 
+use App\Rune;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
@@ -18,7 +19,7 @@ class RetrieveWalletBalance implements ShouldQueue
         public Rune $rune,
         public string $address,
     ) {
-        $this->apiUrl = 'https://api-mainnet.magiceden.dev/v2/ord/btc/runes/wallet/balances/'.$this->address.'/'.$this->rune->tickerWithoutSpacers
+        $this->apiUrl = 'https://api-mainnet.magiceden.dev/v2/ord/btc/runes/wallet/balances/'.$this->address.'/'.$this->rune->tickerWithoutSpacers;
     }
 
     public function handle(): void
