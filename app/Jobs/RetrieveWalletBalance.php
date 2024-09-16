@@ -2,6 +2,7 @@
 
 namespace App\Jobs;
 
+use App\Models\Wallet;
 use App\Rune;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
@@ -32,10 +33,12 @@ class RetrieveWalletBalance implements ShouldQueue
             ->get($this->apiUrl);
 
         if ($response->successful()) {
-            Cache::put(
-                'wallet_balance_'.$this->address.'_'.$this->rune->tickerWithoutSpacers,
-                $response->json('balance')
-            );
+            Wallet::updateOrCreate([
+                'ticker' => $this->rune->tickerWithoutSpacers,
+                'address' => $this->address,
+            ], [
+                'balance' => $response->json('balance'),
+            ]);
         }
     }
 }
