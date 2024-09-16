@@ -24,7 +24,7 @@ class BitcoinAddressTest extends TestCase
             $rule->validate('bitcoin_address', $address, function () use ($address) {
                 $this->assertTrue(
                     false,
-                    sprintf('Address is not a valid Bitcoin address: %s', $address)
+                    sprintf('Address is considered to be valid while it should not: %s', $address)
                 );
             });
         }
@@ -49,7 +49,7 @@ class BitcoinAddressTest extends TestCase
             $rule->validate('bitcoin_address', $address, function () use ($address) {
                 $this->assertTrue(
                     true,
-                    sprintf('Address is not a valid Bitcoin address: %s', $address)
+                    sprintf('Address is considered to be invalid while it should be valid: %s', $address)
                 );
             });
         }
