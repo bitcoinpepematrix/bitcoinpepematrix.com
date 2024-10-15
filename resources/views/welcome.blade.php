@@ -12,7 +12,7 @@
                     <x-social-links/>
                     <a
                         href="https://geniidata.com/ordinals/runes/BITCOIN%E2%80%A2PEPE%E2%80%A2MATRIX"
-                        class="pl-6 hover:text-slate-200"
+                        class="pl-12 hover:text-slate-200"
                         target="_blank"
                         rel="noopener"
                     >
@@ -21,10 +21,10 @@
                     </a>
                     <a
                         href="{{ route('memes') }}"
-                        class="pl-6 hover:text-slate-200"
+                        class="flex pl-12 hover:text-slate-200"
                     >
-                        <span class="sr-only">Memes</span>
                         <x-icon-image class="w-6 h-6" />
+                        <span class="pl-4 font-bold">MEMES</span>
                     </a>
                 </div>
             </div>
