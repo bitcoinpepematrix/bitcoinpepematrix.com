@@ -30,7 +30,7 @@
                 <div class="bg-gradient-to-b from-slate-600/[0.2] to-slate-800/[0.5] rounded-lg py-6 px-8 mt-16 -ml-6 flex items-center gap-x-6 text-slate-200 font-semibold">
                     <ul class="list-disc space-y-2">
                         <li>There was no airdrop for {{ $rune->ticker }}</li>
-                        <li>Fair mint started on Apr 22, 2024 on block 840269.</li>
+                        <li>Fair mint started on Apr 22, 2024 on block 840269</li>
                         <li>Minted out in 13 hours and 45 minutes on block 840350</li>
                         <li>23 BTC ($1.5M) was spent to mint out {{ $rune->ticker }}</li>
                         <li>In top 25 with over 14K holders since day one</li>
