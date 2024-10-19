@@ -28,14 +28,6 @@
             >
                 <x-icon-unisat class="h-6"/>
             </a>
-            <a
-                href="{{ $rune->ordinals_wallet_url }}"
-                class="col-span-2 max-h-12 w-full object-contain object-left lg:col-span-1 hover:text-slate-300"
-                target="_blank"
-                rel="noopener"
-            >
-                Ordinals Wallet
-            </a>
         </div>
     </div>
 </div>
