@@ -5,7 +5,7 @@
     rel="noopener"
 >
     <span class="sr-only">Twitter / X</span>
-    <x-icon-twitter-x class="w-6 h-6" />
+    <x-icon-twitter-x class="w-6 h-6"/>
 </a>
 <a
     href="{{ $socials->telegram_url }}"
@@ -14,5 +14,5 @@
     rel="noopener"
 >
     <span class="sr-only">Telegram</span>
-    <x-icon-telegram class="w-6 h-6" />
+    <x-icon-telegram class="w-6 h-6"/>
 </a>
