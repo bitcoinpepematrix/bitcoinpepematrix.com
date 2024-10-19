@@ -5,7 +5,6 @@
             <div class="flex space-x-6 md:order-4">
                 <x-github-link/>
                 <x-social-links/>
-                <x-email-link/>
             </div>
             <div class="flex mt-8 items-center space-x-1 text-xs text-gray-600 leading-5 md:order-3 md:mt-0">
                 <p>Proudly hosted with</p>
