@@ -1,9 +1,8 @@
 <x-layout.main title="{{ $rune->ticker }} - MEMES">
     <x-nav-header/>
     <div class="flex mt-16 sm:mt-20 xl:mx-auto xl:max-w-7xl xl:px-8">
-        <h1 class="text-2xl font-bold tracking-wider text-white sm:text-4xl">
-            <a href="{{ url('/') }}">{{ $rune->ticker }}</a>
-            <span class="pl-4 text-green-600">MEMES</span>
+        <h1 class="text-2xl font-bold tracking-wider text-green-600 sm:text-4xl">
+            MEMES
         </h1>
     </div>
 
