@@ -64,7 +64,13 @@
                 class="underline underline-offset-2 hover:underline-offset-4"
                 href="{{ $socials->telegram_url }}"
                 target="_blank"
-            >Telegram</a>!
+            >Telegram</a>
+            or
+            <a
+                class="underline underline-offset-2 hover:underline-offset-4"
+                href="{{ $socials->discord_url }}"
+                target="_blank"
+            >Discord</a> !
         </p>
     </div>
 </x-layout.main>
