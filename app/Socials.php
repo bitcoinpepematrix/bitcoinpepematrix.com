@@ -22,7 +22,7 @@ class Socials
             config('socials.telegram_handle')
         );
 
-        $this->discord_url = Str::of('https://discord.gg/')->append(
+        $this->discord_url = Str::of('https://discord.com/invite/')->append(
             config('socials.discord_handle')
         );
     }
