@@ -22,9 +22,7 @@
                             href="https://x.com/MegaPunks_BTC"
                             class="underline underline-offset-2 hover:underline-offset-4"
                             target="_blank"
-                        >
-                            Mega Punks
-                        </a>
+                        >Mega Punks</a>
                     </p>
                     <p>
                         on their upcoming
@@ -32,9 +30,7 @@
                             href="https://pets.pizza"
                             class="underline underline-offset-2 hover:underline-offset-4"
                             target="_blank"
-                        >
-                            Pizza Pets
-                        </a> airdrop.
+                        >Pizza Pets</a> airdrop.
                     </p>
                     <p class="mt-6">
                         More details coming soon...
