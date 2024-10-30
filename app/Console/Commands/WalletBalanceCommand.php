@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Validator;
 
 class WalletBalanceCommand extends Command
 {
-    protected $signature = 'rune:wallet-balance {address}';
+    protected $signature = 'rune:balance {address}';
 
     protected $description = 'Retrieve the wallet balance for a Rune';
 
