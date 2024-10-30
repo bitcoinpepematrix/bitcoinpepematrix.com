@@ -2,6 +2,7 @@
     title="BITCOIN•PEPE•MATRIX x Pizza Pets"
     description="We are thrilled to announce a collaboration with Pizza Ninjas and Mega Punks on their upcoming Pizza Pets airdrop."
 >
+    <x-nav-header/>
     <div class="relative isolate overflow-hidden">
         <x-matrix-background/>
         <div class="mx-auto max-w-7xl px-6 pb-24 pt-10 sm:pb-40 lg:flex lg:px-8 lg:pt-40">
@@ -69,14 +70,5 @@
                 target="_blank"
             >Telegram</a>!
         </p>
-        <div class="mt-4 p-4">
-            <a
-                href="{{ secure_url('/') }}"
-                type="button"
-                class="rounded bg-white/10 px-2 py-1 text-sm font-semibold text-gray-400 shadow-sm hover:bg-white/20"
-            >
-                return to the homepage
-            </a>
-        </div>
     </div>
 </x-layout.main>
