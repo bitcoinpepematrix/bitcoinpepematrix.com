@@ -36,6 +36,11 @@
                         More details will be announced<br>in our Discord and Telegram.
                     </p>
                 </div>
+                
+                <!-- Add the wallet connect button here -->
+                <div class="mt-8">
+                    <x-wallet-test/>
+                </div>
             </div>
             <div class="mx-auto flex justify-end">
                 <div class="flex space-x-4 rounded-2xl bg-slate-900 p-2">

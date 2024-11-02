@@ -12,6 +12,7 @@ export default defineConfig({
                 'resources/js/app.js',
                 'resources/js/chart.js',
                 'resources/js/matrix.js',
+                'resources/js/wallet-test.js',
             ],
             refresh: true,
         }),
