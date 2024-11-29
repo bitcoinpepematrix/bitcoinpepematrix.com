@@ -5,9 +5,9 @@
     "keywords": ["bitcoin", "pepe", "matrix", "runes"],
     "license": "MIT",
     "require": {
-        "php": "^8.2",
+        "php": "^8.3",
         "blade-ui-kit/blade-icons": "^1.7",
-        "laravel/framework": "^11.31",
+        "laravel/framework": "^11.34",
         "laravel/horizon": "^5.29",
         "laravel/tinker": "^2.10"
     },
