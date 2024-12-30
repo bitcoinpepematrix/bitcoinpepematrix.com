@@ -21,7 +21,7 @@ class AppServiceProvider extends ServiceProvider
             config('rune')
         ));
 
-        View::share('socials', new Socials());
+        View::share('socials', new Socials);
 
         JsonResource::withoutWrapping();
     }

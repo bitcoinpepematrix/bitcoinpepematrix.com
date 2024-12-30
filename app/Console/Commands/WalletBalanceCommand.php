@@ -2,13 +2,13 @@
 
 namespace App\Console\Commands;
 
-use App\Rune;
+use App\Jobs\RetrieveWalletBalance;
 use App\Models\Wallet;
 use App\Rules\BitcoinAddress;
-use Illuminate\Support\Number;
+use App\Rune;
 use Illuminate\Console\Command;
-use App\Jobs\RetrieveWalletBalance;
 use Illuminate\Support\Facades\Validator;
+use Illuminate\Support\Number;
 
 class WalletBalanceCommand extends Command
 {

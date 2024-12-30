@@ -11,7 +11,7 @@ class BitcoinAddressTest extends TestCase
     #[Test]
     public function valid_bitcoin_addresses()
     {
-        $rule = new BitcoinAddress();
+        $rule = new BitcoinAddress;
 
         $validAddresses = [
             '1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa', // Legacy (P2PKH)
@@ -35,7 +35,7 @@ class BitcoinAddressTest extends TestCase
     #[Test]
     public function invalid_bitcoin_addresses()
     {
-        $rule = new BitcoinAddress();
+        $rule = new BitcoinAddress;
 
         $invalidAddresses = [
             '1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa!', // Invalid character '!'
