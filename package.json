@@ -6,7 +6,7 @@
         "build": "vite build"
     },
     "devDependencies": {
-        "@tailwindcss/forms": "^0.5.9",
+        "@tailwindcss/forms": "^0.5.10",
         "autoprefixer": "^10.4.20",
         "axios": "^1.7.9",
         "copy-button": "^2.0.1",
