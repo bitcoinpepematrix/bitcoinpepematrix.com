@@ -11,10 +11,10 @@
         "axios": "^1.7.9",
         "copy-button": "^2.0.1",
         "element-ready": "^7.0.0",
-        "laravel-vite-plugin": "^1.1.1",
-        "lightweight-charts": "^4.2.2",
+        "laravel-vite-plugin": "^1.2.0",
+        "lightweight-charts": "^4.2.3",
         "postcss": "^8.5.1",
         "tailwindcss": "^3.4.17",
-        "vite": "^6.0.7"
+        "vite": "^6.0.11"
     }
 }
