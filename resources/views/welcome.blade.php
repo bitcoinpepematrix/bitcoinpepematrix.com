@@ -2,7 +2,7 @@
     <div class="relative isolate overflow-hidden">
         <x-matrix-background/>
         <div class="mx-auto max-w-7xl px-6 pb-24 pt-10 sm:pb-40 lg:flex lg:px-8 lg:pt-40">
-            <div class="mx-auto max-w-2xl flex-shrink-0 lg:mx-0 lg:max-w-xl lg:pt-8">
+            <div class="mx-auto max-w-2xl shrink-0 lg:mx-0 lg:max-w-xl lg:pt-8">
                 <x-icon-bitcoin class="h-11 fill-red-600" />
                 <h1 class="mt-10 text-2xl font-bold tracking-wider text-white sm:text-4xl">
                     {{ $rune->ticker }}
@@ -26,7 +26,7 @@
                         <span class="pl-4 font-bold">MEMES</span>
                     </a>
                 </div>
-                <div class="bg-gradient-to-b from-slate-600/[0.2] to-slate-800/[0.5] rounded-lg py-6 px-8 mt-16 -ml-6 flex items-center gap-x-6 text-slate-200 font-semibold">
+                <div class="bg-linear-to-b from-slate-600/[0.2] to-slate-800/[0.5] rounded-lg py-6 px-8 mt-16 -ml-6 flex items-center gap-x-6 text-slate-200 font-semibold">
                     <ul class="list-disc space-y-2">
                         <li>There was no airdrop for {{ $rune->ticker }}</li>
                         <li>Fair mint started on Apr 22, 2024 at block 840269</li>

@@ -7,14 +7,14 @@
     },
     "devDependencies": {
         "@tailwindcss/forms": "^0.5.10",
-        "autoprefixer": "^10.4.20",
+        "@tailwindcss/postcss": "^4.0.0",
         "axios": "^1.7.9",
         "copy-button": "^2.0.1",
         "element-ready": "^7.0.0",
         "laravel-vite-plugin": "^1.2.0",
         "lightweight-charts": "^4.2.3",
         "postcss": "^8.5.1",
-        "tailwindcss": "^3.4.17",
+        "tailwindcss": "^4.0.0",
         "vite": "^6.0.11"
     }
 }

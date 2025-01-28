@@ -6,7 +6,7 @@
     <div class="relative isolate overflow-hidden">
         <x-matrix-background/>
         <div class="mx-auto max-w-7xl px-6 pb-24 pt-10 sm:pb-40 lg:flex lg:px-8 lg:pt-40">
-            <div class="mx-auto max-w-2xl flex-shrink-0 lg:mx-0 lg:max-w-xl">
+            <div class="mx-auto max-w-2xl shrink-0 lg:mx-0 lg:max-w-xl">
                 <h1 class="mt-2 px-4 text-2xl font-bold tracking-wider text-slate-200 sm:text-4xl">
                     HAVE AN EGGCELENT DAY!
                 </h1>

@@ -3,7 +3,7 @@
         we are community driven, please consider making a donation to our community wallet
     </label>
 
-    <div class="flex w-full relative mt-6 rounded-md shadow-sm">
+    <div class="flex w-full relative mt-6 rounded-md shadow-xs">
         <span class="w-20 bg-white inline-flex items-center rounded-l-md border border-r-0 border-gray-300 px-3 text-slate-500 sm:text-sm">
             Bitcoin
         </span>
@@ -23,7 +23,7 @@
         </div>
     </div>
 
-    <div class="flex w-full relative mt-2 rounded-md shadow-sm">
+    <div class="flex w-full relative mt-2 rounded-md shadow-xs">
         <span class="w-20 bg-white inline-flex items-center rounded-l-md border border-r-0 border-gray-300 px-3 text-slate-500 sm:text-sm">
             Ordinals
         </span>
