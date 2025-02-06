@@ -1,4 +1,4 @@
-import { createChart } from 'lightweight-charts';
+import { createChart, AreaSeries } from 'lightweight-charts';
 
 const url = '/api/chart';
 const response = await axios.get(url);
@@ -37,7 +37,7 @@ chart.applyOptions({
 
 chart.timeScale().fitContent();
 
-const areaSeries = chart.addAreaSeries({
+const areaSeries = chart.addSeries(AreaSeries, {
     lineColor: '#65a30d', topColor: '#65a30d',
     bottomColor: 'rgba(101, 163, 13, 0.28)',
 });
