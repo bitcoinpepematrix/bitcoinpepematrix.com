@@ -24,6 +24,6 @@ return [
 
     'supply' => 6942069420,
 
-    'burned' => 69420,
+    'burned' => 71419,
 
 ];
